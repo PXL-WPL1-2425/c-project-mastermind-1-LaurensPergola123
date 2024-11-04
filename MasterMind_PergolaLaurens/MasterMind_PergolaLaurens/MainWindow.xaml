@@ -1,0 +1,19 @@
+﻿<Window x:Class="Mastermind.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mastermind" Height="300" Width="490">
+    <StackPanel Margin="10">
+        <Viewbox>
+        <StackPanel Orientation="Horizontal">
+            <ComboBox x:Name="Color1" Width="90" Margin="5" />
+            <ComboBox x:Name="Color2" Width="90" Margin="5" />
+            <ComboBox x:Name="Color3" Width="90" Margin="5" />
+            <ComboBox x:Name="Color4" Width="90" Margin="5" />
+        </StackPanel>
+            
+        </Viewbox>
+
+
+        <Button x:Name="checkButton" Content="Controleer" Margin="10,100" />
+    </StackPanel>
+</Window>
