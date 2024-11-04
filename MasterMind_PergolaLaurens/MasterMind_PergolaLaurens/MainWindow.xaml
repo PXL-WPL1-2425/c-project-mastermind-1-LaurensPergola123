@@ -2,16 +2,41 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Mastermind" Height="350" Width="520">
+    <Viewbox>
     <StackPanel Margin="10">
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
             <ComboBox x:Name="Color1" Width="90" Margin="5">
+                <ComboBoxItem Content="Red" />
+                <ComboBoxItem Content="Yellow" />
+                <ComboBoxItem Content="Orange" />
+                <ComboBoxItem Content="White" />
+                <ComboBoxItem Content="Green" />
+                <ComboBoxItem Content="Blue" />
             </ComboBox>
             <ComboBox x:Name="Color2" Width="90" Margin="5">
+                <ComboBoxItem Content="Red" />
+                <ComboBoxItem Content="Yellow" />
+                <ComboBoxItem Content="Orange" />
+                <ComboBoxItem Content="White" />
+                <ComboBoxItem Content="Green" />
+                <ComboBoxItem Content="Blue" />
             </ComboBox>
             <ComboBox x:Name="Color3" Width="90" Margin="5">
+                <ComboBoxItem Content="Red" />
+                <ComboBoxItem Content="Yellow" />
+                <ComboBoxItem Content="Orange" />
+                <ComboBoxItem Content="White" />
+                <ComboBoxItem Content="Green" />
+                <ComboBoxItem Content="Blue" />
             </ComboBox>
             <ComboBox x:Name="Color4" Width="90" Margin="5">
+                <ComboBoxItem Content="Red" />
+                <ComboBoxItem Content="Yellow" />
+                <ComboBoxItem Content="Orange" />
+                <ComboBoxItem Content="White" />
+                <ComboBoxItem Content="Green" />
+                <ComboBoxItem Content="Blue" />
             </ComboBox>
         </StackPanel>
 
@@ -27,4 +52,5 @@
 
         <TextBlock x:Name="resultTextBlock" FontSize="14" TextAlignment="Center" Margin="0,10,0,0"/>
     </StackPanel>
+    </Viewbox>
 </Window>
